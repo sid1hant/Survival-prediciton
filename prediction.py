@@ -5,7 +5,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.optimizers import Adam
 
-model = tf.keras.models.load_model('LSTM_Higgs_model.h5')
+model = tf.keras.models.load_model('LSTM_prediction_model.h5')
 
 def prediction(model,input):
     input= np.array(input)

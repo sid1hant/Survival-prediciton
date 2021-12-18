@@ -1,0 +1,8 @@
+sklearn
+urllib3==1.26.6
+pandas 
+numpy
+gunicorn
+matplotlib
+streamlit
+tensorflow-cpu 
